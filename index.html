@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Table</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script type="text/javascript" src="./jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="functions.js"></script>
+    <script type="text/javascript">
+              $(document).ready(function(){
+                  $('table tbody tr td').click(function(){
+                    /*alert($(this).text());*/
+                  });
+              });
+
+              function NumberClicked (Number)
+              {
+              /*  alert ("numero tecleado" + Number);*/
+                var lbl = document.getElementById('Combinacion');
+                /*alert ("Lbl Value " + lbl.value) ;*/
+                lbl.value = Number;
+              }
+
+
+      </script>
+
+  </head>
+
+  <body>
+    <div class="">
+
+
+    <table align="center">
+      <tr>
+        <td><label id = "Cabecera">1</label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(10)"><span>10</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(20)"><span>20</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(30)"><span>30</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(20)"><span>40</span></label></td>
+      </tr>
+      <tr>
+        <td><label><input type="checkbox" onclick="NumberClicked(01)"><span>01</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(11)"><span>11</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(21)"><span>21</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(31)"><span>31</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(41)"><span>41</span></label></td>
+      </tr>
+      <tr>
+        <td><label><input type="checkbox" onclick="NumberClicked(02)"><span>02</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(12)"><span>12</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(22)"><span>22</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(32)"><span>32</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(42)"><span>42</span></label></td>
+      </tr>
+      <tr>
+        <td><label><input type="checkbox" onclick="NumberClicked(03)"><span>03</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(13)"><span>13</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(23)"><span>23</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(33)"><span>33</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(43)"><span>43</span></label></td>
+      </tr>
+      <tr>
+        <td><label><input type="checkbox" onclick="NumberClicked(04)"><span>04</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(14)"><span>14</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(24)"><span>24</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(34)"><span>34</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(44)"><span>44</span></label></td>
+      </tr>
+      <tr>
+        <td><label><input type="checkbox" onclick="NumberClicked(05)"><span>05</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(15)"><span>15</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(25)"><span>25</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(35)"><span>35</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(45)"><span>45</span></label></td>
+      </tr>
+      <tr>
+        <td><label><input type="checkbox" onclick="NumberClicked(06)"><span>06</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(16)"><span>16</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(26)"><span>26</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(36)"><span>36</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(46)"><span>46</span></label></td>
+      </tr>
+      <tr>
+        <td><label><input type="checkbox" onclick="NumberClicked(07)"><span>07</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(17)"><span>17</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(27)"><span>27</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(37)"><span>37</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(47)"><span>47</span></label></td>
+      </tr>
+      <tr>
+        <td><label><input type="checkbox" onclick="NumberClicked(08)"><span>08</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(18)"><span>18</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(28)"><span>28</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(38)"><span>38</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(48)"><span>48</span></label></td>
+      </tr>
+      <tr>
+        <td><label><input type="checkbox" onclick="NumberClicked(09)"><span>09</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(19)"><span>19</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(29)"><span>29</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(39)"><span>39</span></label></td>
+        <td><label><input type="checkbox" onclick="NumberClicked(49)"><span>49</span></label></td>
+      </tr>
+    </td>
+
+    </table>
+
+
+
+    <div  align="Center">
+        <label id="Combinacion">Combinacion</label>
+    </div>
+</div>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+/* table tbody tr td:hover {
+   background-color: rgba(103, 124, 106, 0.44);
+    text-shadow: 2px 2px #005eff;
+    cursor: pointer;
+    border: 25px solid solid rgb(27, 245, 232)  ;
+    border-radius: 5px;
+
+
+}*/
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+td {
+    display:grid;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    background-size: cover;
+    border: 2px solid rgb(27, 94, 245)  ;
+    width: 30px;
+    height: 30px;
+}
+
+label input[type='checkbox']
+{
+  display: none;
+  color: rgb(232, 23, 42);
+
+}
+
+label input[type='checkbox']:checked + span
+{
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(224, 9, 35);
+  border: 10px solid rgb(224, 9, 35);
+
+}
+
+#Cabecera{
+  background-color: rgb(10, 18, 87);
+  color: rgb(255, 255, 255);
+}
+
+#cabecera:after {
+    background-color: grey;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    z-index: -1;
+}
